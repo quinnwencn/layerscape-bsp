@@ -1,0 +1,10 @@
+# Build products
+components
+build
+logs
+tools/uuu
+.bash*
+*.tgz
+*.log
+*.o
+
