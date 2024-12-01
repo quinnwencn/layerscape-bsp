@@ -194,15 +194,15 @@ KERNEL_CONFIG:
 
 repo:
   atf:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/atf.git
+    url:  https://github.com/nxp-qoriq/atf.git
     tag:  LSDK-21.08
 
   uboot:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/u-boot.git
+    url:  https://github.com/nxp-qoriq/u-boot.git
     tag:  LSDK-21.08
 
   rcw:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/rcw.git
+    url:  https://github.com/nxp-qoriq/rcw.git
 
   uefi_bin:
     url:  https://github.com/nxp/qoriq-uefi-binary.git
@@ -216,7 +216,7 @@ repo:
     tag:  mbedtls-2.25.0
 
   mc_utils:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/mc-utils.git
+    url:  https://github.com/nxp-qoriq/mc-utils.git
     tag:  lf-5.10.35-2.0.0
 
   mc_bin:
@@ -245,7 +245,7 @@ repo:
     url:  https://github.com/nxp/qoriq-firmware-inphi.git
 
   imx_mkimage:
-    url:  https://source.codeaurora.org/external/imx/imx-mkimage.git
+    url:  https://github.com/nxp-imx/imx-mkimage.git
     tag:  lf-5.10.35-2.0.0
 
   seco_bin:
@@ -262,7 +262,7 @@ repo:
 # kernel and modules git repositories
 
   linux:
-    url:    https://source.codeaurora.org/external/qoriq/qoriq-components/linux.git
+    url:    https://github.com/nxp-qoriq/linux.git
     branch: linux-5.10
     tag:    LSDK-21.08
 
@@ -275,96 +275,96 @@ repo:
     tag:  v2.13.0
      
   mdio_proxy_module:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/mdio-proxy-module.git
+    url:  https://github.com/nxp-qoriq/mdio-proxy-module.git
     tag:  LSDK-21.08
 
 
 # networking component repositories
 
   restool:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/restool.git
+    url:  https://github.com/nxp-qoriq/restool.git
   
   fmc:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/fmc.git
+    url:  https://github.com/nxp-qoriq/fmc.git
 
   spc:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/spc.git
+    url:  https://github.com/nxp-qoriq/spc.git
 
   tsntool:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/tsntool.git
+    url:  https://github.com/nxp-qoriq/tsntool.git
 
   dpdk:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/dpdk.git
+    url:  https://github.com/nxp-qoriq/dpdk.git
 
   vpp:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/vpp.git
+    url:  https://github.com/nxp-qoriq/vpp.git
     tag:  21.08-LSDK
 
   ovs_dpdk:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/ovs-dpdk.git
+    url:  https://github.com/nxp-qoriq/ovs-dpdk.git
 
   pktgen_dpdk:
     url:  git://dpdk.org/apps/pktgen-dpdk
     tag:  pktgen-21.05.0
 
   aiopsl: 
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/aiopsl.git
+    url:  https://github.com/nxp-qoriq/aiopsl.git
 
   ceetm:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/ceetm.git
+    url:  https://github.com/nxp-qoriq/ceetm.git
 
   dce:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/dce.git
+    url:  https://github.com/nxp-qoriq/dce.git
 
   flib:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/flib.git
+    url:  https://github.com/nxp-qoriq/flib.git
 
   fmlib:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/fmlib.git
+    url:  https://github.com/nxp-qoriq/fmlib.git
 
   aquantia_firmware_utility:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/aquantia-firmware-utility.git
+    url:  https://github.com/nxp-qoriq/aquantia-firmware-utility.git
 
   gpp_aioptool:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/gpp-aioptool.git
+    url:  https://github.com/nxp-qoriq/gpp-aioptool.git
 
   qbman_userspace:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/qbman_userspace.git
+    url:  https://github.com/nxp-qoriq/qbman_userspace.git
 
   eth_config:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/eth-config.git
+    url:  https://github.com/nxp-qoriq/eth-config.git
 
 
 
 # security component repositories
 
   cst:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/cst.git
+    url:  https://github.com/nxp-qoriq/cst.git
 
   openssl:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/openssl.git
+    url:  https://github.com/nxp-qoriq/openssl.git
 
   libpkcs11:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/libpkcs11.git
+    url:  https://github.com/nxp-qoriq/libpkcs11.git
 
   secure_obj:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/secure_obj.git
+    url:  https://github.com/nxp-qoriq/secure_obj.git
 
   optee_os:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/optee_os.git
+    url:  https://github.com/nxp-qoriq/optee_os.git
 
   optee_client:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/optee_client.git
+    url:  https://github.com/nxp-qoriq/optee_client.git
 
   optee_test:
-    url:  https://source.codeaurora.org/external/qoriq/qoriq-components/optee_test.git
+    url:  https://github.com/nxp-qoriq/optee_test.git
 
   crconf:
     url:  https://github.com/Thermi/crconf.git
     tag:  0.4
 
   keyctl_caam:
-    url:  https://source.codeaurora.org/external/imx/keyctl_caam.git
+    url:  https://github.com/nxp-imx/keyctl_caam.git
     tag:  lf-5.10.35-2.0.0
 
 
@@ -372,26 +372,26 @@ repo:
 # graphics component repositories
 
   wayland:
-    url:  https://github.com/wayland-project/wayland.git
+    url:  https://gitlab.freedesktop.org/wayland/wayland.git
     tag:  1.18.0
 
   wayland_protocols:
-    url:  https://source.codeaurora.org/external/imx/wayland-protocols-imx.git
+    url:  https://github.com/nxp-imx/wayland-protocols-imx.git
     tag:  lf-5.10.35-2.0.0
 
   weston:
-    url:  https://source.codeaurora.org/external/imx/weston-imx.git
+    url:  https://github.com/nxp-imx/weston-imx.git
     tag:  lf-5.10.35-2.0.0
 
   libdrm:
-    url:  https://source.codeaurora.org/external/imx/libdrm-imx.git
+    url:  https://github.com/nxp-imx/libdrm-imx.git
     tag:  lf-5.10.35-2.0.0
 
   gpulib_bin:
     url:  https://www.nxp.com/lgfiles/NMG/MAD/YOCTO/imx-gpu-viv-6.4.3.p2.0d-aarch64.bin
 
   xserver:
-    url:  https://github.com/freedesktop/xorg-xserver.git
+    url:  https://github.com/XQuartz/xorg-server.git
     tag:  xorg-server-1.20.9
 
 

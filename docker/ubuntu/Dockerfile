@@ -1,6 +1,9 @@
 FROM ubuntu:20.04
 MAINTAINER Shengzhou Liu <shengzhou.liu@nxp.com>
 
+ARG USER_ID=1002
+ARG USER_NAME=builder
+
 ARG http_proxy
 ENV http_proxy $http_proxy
 ARG https_proxy
@@ -32,3 +35,13 @@ RUN apt-get install -y \
 	python3-h5py
 
 RUN ln -sf /usr/bin/python3 /usr/bin/python && pip3 install six
+
+RUN echo "quinn ALL = NOPASSWD: /usr/bin/apt-get" >> /etc/sudoers
+RUN groupadd -g $USER_ID builder
+RUN useradd -m -s /bin/bash -u $USER_ID $USER_NAME && echo "${USER_NAME}:${USER_NAME}" | chpasswd
+RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && locale-gen
+USER $USER_NAME
+RUN echo "export LANG=en_US.UTF-8" >> ~/.bashrc
+RUN echo "export LC_ALL=en_US.UTF-8" >> ~/.bashrc
+WORKDIR /home/$USER_NAME
+RUN git config --global user.email "quinnwen.cn@gmail.com" && git config --global user.name "Quinn Wen"
