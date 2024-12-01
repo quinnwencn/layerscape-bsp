@@ -36,7 +36,7 @@ RUN apt-get install -y \
 
 RUN ln -sf /usr/bin/python3 /usr/bin/python && pip3 install six
 
-RUN echo "quinn ALL = NOPASSWD: /usr/bin/apt-get" >> /etc/sudoers
+RUN echo "quinn ALL = NOPASSWD: ALL" >> /etc/sudoers
 RUN groupadd -g $USER_ID builder
 RUN useradd -m -s /bin/bash -u $USER_ID $USER_NAME && echo "${USER_NAME}:${USER_NAME}" | chpasswd
 RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && locale-gen
